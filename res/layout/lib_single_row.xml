@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/border_list"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+        android:paddingBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:textColor="@android:color/white"
+            android:id="@+id/bkid"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.45"
+            android:text="bkid" />
+
+        <TextView
+            android:textColor="@android:color/white"
+            android:id="@+id/bktitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="bktitle" />
+    </LinearLayout>
+
+    
+ 		<LinearLayout
+        android:paddingBottom="5dp"    
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:textColor="@android:color/white"
+            android:id="@+id/issue"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/issue" />
+        
+        
+
+        <TextView
+            android:textColor="@android:color/white"
+            android:id="@+id/due"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/due" />
+		
+        
+        <TextView
+            android:textColor="@android:color/white"
+            android:id="@+id/_return"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/_return" />
+        </LinearLayout>
+    
+    
+        <LinearLayout
+        android:paddingBottom="5dp"    
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:textColor="@android:color/white"
+            android:id="@+id/issuedate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="issue" />
+        
+        
+
+        <TextView
+            android:textColor="@android:color/white"
+            android:id="@+id/duedate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="due" />
+		
+        
+        <TextView
+            android:textColor="@android:color/white"
+            android:id="@+id/returndate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="return" />
+        </LinearLayout>
+    
+        <LinearLayout
+            android:paddingBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:textColor="@android:color/white"
+            android:id="@+id/bkfine"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.45"
+            android:text="bkfine" />
+
+        <TextView
+            android:textColor="@android:color/white"
+            android:id="@+id/bkstatus"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="bkstatus" />
+    </LinearLayout>
+        
+        
+
+</LinearLayout>

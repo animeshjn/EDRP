@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding = "3dp"
+    >
+    
+    <TextView 
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="5dp"
+        />
+    
+    <TextView 
+        android:id="@+id/author"
+        android:layout_below="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:textColor="@android:color/white"
+        
+        />
+
+    <TextView
+        android:id="@+id/edition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/author"
+        android:textColor="@android:color/white"
+        android:textSize="13sp"
+        android:layout_alignParentRight="true"
+        />
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/edition"
+        android:layout_alignTop="@+id/author"
+        android:textSize="13sp"
+        android:textColor="@android:color/white" />
+    
+</RelativeLayout>

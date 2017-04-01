@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item 
+        android:id="@+id/menuopt"
+        android:title="@string/home"
+        android:showAsAction="ifRoom|withText"
+        android:icon="@drawable/mainmenu"
+         />
+
+    <item 
+        android:id="@+id/info"
+        android:title="@string/myinfohdr"
+        android:showAsAction="ifRoom|withText"
+        android:icon="@drawable/icn_info1"
+         />
+    
+    <item 
+        android:id="@+id/att"
+        android:title="@string/attn"
+        android:icon="@drawable/icn_attendance1"
+        android:showAsAction="ifRoom|withText|collapseActionView"
+        />
+    
+        <item 
+        android:id="@+id/bSearch"
+        android:title="@string/bsearch"
+        android:icon="@drawable/librarysearch1"
+        android:showAsAction="ifRoom|withText"
+        />
+        
+        <item 
+        android:id="@+id/newnot"
+        android:title="@string/notice"
+        android:icon="@drawable/icn_news1"
+        android:showAsAction="ifRoom|withText"
+        />
+        
+        <item 
+        android:id="@+id/ctmark"
+        android:title="@string/ct_marks"
+        android:icon="@drawable/icn_ct1"
+        android:showAsAction="ifRoom|withText"
+        />
+        
+        <item 
+        android:id="@+id/acc"
+        android:title="@string/account"
+        android:icon="@drawable/icn_account1"
+        android:showAsAction="ifRoom|withText"
+        />
+        
+        <item 
+        android:id="@+id/libtran"
+        android:title="@string/btransaction"
+        android:icon="@drawable/icn_libtr1"
+        android:showAsAction="ifRoom|withText"
+        />
+
+</menu>

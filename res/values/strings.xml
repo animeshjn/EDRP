@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">EDRP@SSTC</string>
+    <string name="action_settings">Settings</string>
+        <string name="login">LOGIN</string>
+    <string name="STUDENT_ID">Student ID</string>
+	<string name="Password">Password</string>
+    <string name="LOGIN">LOGIN</string>
+    <string name="Welcome">Welcome</string>
+    <string name="myinfohdr">MY INFO</string>
+    <string name="attn">ATTENDANCE</string>
+    <string name="bsearch">BOOK SEARCH</string>
+    <string name="colg">COLLEGE :</string>
+    <string name="sem">SEMESTER :</string>
+    <string name="branch">BRANCH :</string>
+    <string name="dob">DATE OF BIRTH :</string>
+    <string name="email">EMAIL :</string>
+    <string name="phnno">PHONE NO. :</string>
+    <string name="Title">Title</string>
+    <string name="Author">Author</string>
+    <string name="Publisher">Publisher</string>
+    <string name="GO">GO</string>
+    <string name="ct_marks">CT</string>
+    <string name="search_library_books">Search Library Books</string>
+    <string name="Text1">Textview</string>
+    <string name="Text2">Textview</string>
+    <string name="notice_title">NEWS and NOTICES</string>
+    <string name="issue">Issue</string>
+    <string name="due">Due</string>
+    <string name="book_transaction">Book Transaction Details</string>
+    <string name="_return">Return</string>
+    <string name="FROM">FROM</string>
+    <string name="TO"> TO </string>
+    <string name="btransaction">LIBRARY</string>
+    <string name="notice">NOTICE</string>
+    <string name="get_report">Get Report</string>
+    <string name="total">Total Periods</string>
+    <string name="actual">Attended Periods</string>
+    <string name="account">ACCOUNTS</string>
+    <string name="select">Select Date: </string>
+    <string-array name="ct_num">
+        <item>CT-1</item>
+        <item>CT-2</item>
+    </string-array>
+    <string name="home">HOME</string>
+    
+     
+    
+     
+</resources>
